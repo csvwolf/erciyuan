@@ -5,5 +5,9 @@
   "description": "一款跨次元的冻鳗起始页",
   "chrome_url_overrides": {
     "newtab": "src/index.html"
-  }
+  },
+  "permissions": [
+    "*://moe.kiteorg.com/*",
+    "*://api.hitokoto.us/*"
+  ]
 }

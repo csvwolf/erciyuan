@@ -1,0 +1,28 @@
+body {
+  background-size: cover;
+}
+
+.word {
+  position: absolute;
+  bottom: 20px;
+}
+
+.word::before {
+  content: '『';
+}
+
+.word::after {
+  content: '』';
+}
+
+.time {
+  font-size: 4em;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+div {
+  -webkit-text-stroke: 1px #000;
+  color: rgba(255, 255, 255, 0.5);
+}
