@@ -7,7 +7,10 @@
     "newtab": "src/index.html"
   },
   "permissions": [
+    "geolocation",
+    "*://*.googleapis.com/*",
     "*://moe.kiteorg.com/*",
-    "*://api.hitokoto.us/*"
+    "*://api.hitokoto.us/*",
+    "*://query.yahooapis.com/*"
   ]
 }

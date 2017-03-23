@@ -20,9 +20,9 @@ body {
   position: absolute;
   right: 20px;
   top: 20px;
+  -webkit-text-stroke: 1px #000;
 }
 
 div {
-  -webkit-text-stroke: 1px #000;
   color: rgba(255, 255, 255, 0.5);
 }
